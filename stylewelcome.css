@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(251, 213, 0);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.camera {
+    height: 150px;
+    width: 150px;
+}
+
+.team {
+    height: 150px;
+    width: 150px;
+    margin-left: 200px;
+}
+
+.clock {
+    height: 150px;
+    width: 150px;
+    margin-left: 400px;
+}

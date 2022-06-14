@@ -1,0 +1,97 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+body {
+    background-color: rgb(255, 208, 0);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+main {
+    margin-top: 20px;
+}
+
+.metro {
+    color: rgb(255, 208, 0);
+    font-size: 140px;
+}
+
+.film {
+    font-size: 120px;
+}
+
+.metrodiv {
+    background-color: rgb(0, 0, 0);
+    width: 400px;
+    text-align: center;
+    margin-top: 320px;
+    margin-left: 340px;
+    border-radius: 25px;
+}
+
+.filmdiv {
+    text-align: center;
+    width: 300px;
+    outline-style: solid;
+    outline-color: black;
+    outline-width: 7px;
+    margin-top: -70px;
+    margin-left: 620px;
+    border-radius: 25px;
+}
+
+.frontpic {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left: 1300px;
+    margin-top: -400px;
+    /*opacity: 100%;
+    height: 500px;
+    width: 450px;
+    background-size: cover;
+    position: absolute;
+    margin-left: 1100px;
+    margin-top: -420px;
+    transition: .5s ease-out;*/
+}
+
+.frontpic:hover {
+    box-shadow: 0 0 5px 10px #000000;
+    transition: .5s ease;
+}
+
+nav {
+    margin-left: 6px;
+    text-align: center;
+}
+
+nav a {
+    padding-left: 150px;
+}
+
+.triangle {
+    color: #000000;
+    border-right: 20px solid; 
+    border-bottom: 20px solid;
+    height: 60px;
+    width: 60px;
+    transform: rotate(-45deg);
+    transition: .5s ease-out;
+}
+
+.triangleposition {
+    position: absolute;
+    margin-left: 1380px;
+    margin-top: -300px;
+}
+
+.triangle:hover {
+    filter: drop-shadow(0 0 10px #000);
+    -webkit-filter: drop-shadow(0 0 10px #000);
+    transition: .5s ease;
+}
+
